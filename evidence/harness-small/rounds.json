@@ -1,0 +1,22 @@
+[
+  {
+    "round": 1,
+    "decision": "KEEP_BASE",
+    "playbook": []
+  },
+  {
+    "round": 2,
+    "decision": "KEEP_BASE",
+    "playbook": []
+  },
+  {
+    "round": 3,
+    "decision": "KEEP_BASE",
+    "playbook": []
+  },
+  {
+    "round": 4,
+    "decision": "KEEP_BASE",
+    "playbook": []
+  }
+]

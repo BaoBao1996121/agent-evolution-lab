@@ -1,0 +1,38 @@
+{
+  "H0_test": 0.683,
+  "final_test": 0.75,
+  "final_id": "H0",
+  "test_gate": {
+    "delta": 0.0667,
+    "ci90_low": 0.0,
+    "pass": false
+  },
+  "H0_by_kind": {
+    "kth": 0.917,
+    "letter_count": 0.583,
+    "multiply": 0.833,
+    "reverse": 0.083,
+    "weekday": 1.0
+  },
+  "final_by_kind": {
+    "kth": 1.0,
+    "letter_count": 0.833,
+    "multiply": 0.75,
+    "reverse": 0.167,
+    "weekday": 1.0
+  },
+  "final_playbook": [],
+  "usage": {
+    "calls": 964,
+    "prompt_tokens": 125675,
+    "completion_tokens": 424382
+  },
+  "solver": "qwen3.8-flash",
+  "editor": "qwen3.7-plus",
+  "args": {
+    "rounds": 4,
+    "k": 3,
+    "repeats": 2,
+    "per_type": 6
+  }
+}

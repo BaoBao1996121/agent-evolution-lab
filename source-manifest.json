@@ -1,0 +1,107 @@
+[
+  {
+    "source": "experiments/rsi_lab/tasks.py",
+    "source_sha256": "d790bb3df342587bf50db82d8a79e62222c9ac1509f1bac2dd20c1207b92f569",
+    "published_as": "tasks.py",
+    "treatment": "保留算法与评分行为；校订文档中的安全或统计用词",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/binpack_eval.py",
+    "source_sha256": "b9771ae009559a688193459e17fec1ed0a187ebd79ec4804adfc613563072bfa",
+    "published_as": "binpack_eval.py",
+    "treatment": "保留算法与评分行为；校订文档中的安全或统计用词",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/evolve_code.py",
+    "source_sha256": "f19f6a8177dbaadea4e32d24dfb5256ad9c9f80c52375e9860cca4e3fb4420ae",
+    "published_as": "evolve_code.py",
+    "treatment": "保留算法与评分行为；校订文档中的安全或统计用词；不继承凭据环境变量，评估使用临时工作目录；生成代码执行默认关闭，须显式启用（仍不是安全沙箱）",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/harness_loop.py",
+    "source_sha256": "53041c4d665686e77db546a4ea4fef3146403f72a60d7ca34e8bd6bd7edd4e41",
+    "published_as": "harness_loop.py",
+    "treatment": "保留算法与评分行为；校订文档中的安全或统计用词；在线运行前校验显式配置与正整数参数",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/common.py",
+    "source_sha256": "97af7b997ab2f4d3a83eaea630aa9bbbaea9a2f68b3f0d5a9d8689b9ce295ea1",
+    "published_as": "common.py",
+    "treatment": "移除个人秘密文件与固定账号端点；必须显式配置模型与线路；API 包延迟导入；并发计数加锁；在线兼容性未重跑",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/runs/evolve_20261105_234223/final.json",
+    "source_sha256": "13cd803601fd6742acfceba49719a2e3100d3f3129c19dd6924ac098d3cc121c",
+    "published_as": "evidence/binpack/final.json",
+    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/runs/evolve_20261105_234223/history.json",
+    "source_sha256": "b14160188bf654502ad6d9266bc1ad24bbd2684933b44c24b58380d1384c7368",
+    "published_as": "evidence/binpack/history.json",
+    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/runs/harness_20261105_232532/final.json",
+    "source_sha256": "b15f70405c8572fb1a71dc4a1d499f5bc95964b82b7349cb9f2874aebb068454",
+    "published_as": "evidence/harness-small/final.json",
+    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/runs/harness_20261105_232532/rounds.json",
+    "source_sha256": "b866c23ce674c977e63d46798a8826e3f31b57dc5825ef2a1b706d84b097845a",
+    "published_as": "evidence/harness-small/rounds.json",
+    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/runs/harness_20261105_232532/archive.json",
+    "source_sha256": "8eb0ff4a7dc2743c3058446f2131f0af5332cf5040552644dac45a13f1256794",
+    "published_as": "evidence/harness-small/archive.json",
+    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/runs/harness_20261105_235005/final.json",
+    "source_sha256": "a038ce2bfdaf9b5ee29a2097fe043dfde46103a213cb401e7cba24d638739524",
+    "published_as": "evidence/harness-large/final.json",
+    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/runs/harness_20261105_235005/rounds.json",
+    "source_sha256": "4462708ed70247f9bbd808b6b475f4efdd1cac689a9ceb56bd7847d97d18d1b7",
+    "published_as": "evidence/harness-large/rounds.json",
+    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/runs/harness_20261105_235005/archive.json",
+    "source_sha256": "00630682c6aceec112da86df43fc633fe91bb9143c8ad5b9beba43c82f732b18",
+    "published_as": "evidence/harness-large/archive.json",
+    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "reports/01-理论与架构/R168_Agent与过程RSI落地方案_2026-11-06.md",
+    "source_sha256": "2493569f02c8e5f7a09da39246504d87beead33ba0c3697905f58a4f8e1fd5a7",
+    "published_as": "docs/findings.md",
+    "treatment": "全文阅读，核对代码与选定结果；重新撰写，撤回安全沙箱、统计不退步、普遍收益和未附数据的结论",
+    "captured_on": "2026-11-09"
+  },
+  {
+    "source": "experiments/rsi_lab/README.md",
+    "source_sha256": "30c1dfd4bc732252e76d8d160c83fb7ba0b2c0f3acae869d969d10195384f924",
+    "published_as": "README.md",
+    "treatment": "全文阅读后重写；替换个人环境说明，区分离线验证与在线重跑",
+    "captured_on": "2026-11-09"
+  }
+]

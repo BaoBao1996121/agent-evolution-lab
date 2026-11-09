@@ -1,0 +1,40 @@
+{
+  "H0_test": 0.693,
+  "final_test": 0.827,
+  "final_id": "R2C0",
+  "test_gate": {
+    "delta": 0.1333,
+    "ci90_low": 0.0733,
+    "pass": true
+  },
+  "H0_by_kind": {
+    "kth": 1.0,
+    "letter_count": 0.7,
+    "multiply": 0.667,
+    "reverse": 0.1,
+    "weekday": 1.0
+  },
+  "final_by_kind": {
+    "kth": 1.0,
+    "letter_count": 0.967,
+    "multiply": 0.767,
+    "reverse": 0.4,
+    "weekday": 1.0
+  },
+  "final_playbook": [
+    "处理字符串反转或计数时，禁止直接输出结果。必须先将字符串拆分为单字符列表并打印，再基于列表进行逆向拼接或逐项统计，确保每一步可验证。"
+  ],
+  "usage": {
+    "calls": 2103,
+    "prompt_tokens": 281441,
+    "completion_tokens": 750793
+  },
+  "solver": "qwen3.8-flash",
+  "editor": "qwen3.7-plus",
+  "args": {
+    "rounds": 3,
+    "k": 3,
+    "repeats": 3,
+    "per_type": 10
+  }
+}

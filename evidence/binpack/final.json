@@ -1,0 +1,47 @@
+{
+  "train_best": 1.02261,
+  "best_id": "g13_1",
+  "best_src": "def priority(item, remaining):\n    new_rem = remaining - item\n    # Perfect fit is optimal\n    if new_rem < 1e-9:\n        return 1e9\n    \n    # Base: Best Fit (minimize remainder)\n    score = -new_rem\n    \n    # Reward closing bins aggressively to reduce active count\n    if new_rem < 0.03:\n        score += 200.0 * (0.03 - new_rem)\n    \n    # Penalize \"dead zones\" where space is too small for typical items but not closed\n    # Typical online distributions have many small items, so <0.1 is risky if not near 0\n    elif new_rem < 0.15:\n        # Steep penalty for fragments that are hard to utilize\n        score -= 5.0 / (new_rem + 0.001)\n        \n    # Bonus for keeping large flexible spaces (>0.6) which can accept almost any item\n    elif new_rem > 0.6:\n        score += 0.2 * new_rem\n        \n    # Slight penalty for mid-range remainders (0.3-0.5) which are less flexible than large ones\n    # and don't contribute to closing bins\n    elif 0.3 < new_rem < 0.5:\n        score -= 0.05\n        \n    return score\n",
+  "test": {
+    "first_fit": 1.02881,
+    "best_fit": 1.02597,
+    "evolved_best": 1.02541
+  },
+  "lineage": [
+    {
+      "id": "g13_1",
+      "gen": 13,
+      "score": 1.02261
+    },
+    {
+      "id": "g6_0",
+      "gen": 6,
+      "score": 1.02427
+    },
+    {
+      "id": "g3_1",
+      "gen": 3,
+      "score": 1.0249
+    },
+    {
+      "id": "best_fit",
+      "gen": 0,
+      "score": 1.0249
+    }
+  ],
+  "stats": {
+    "valid": 80,
+    "invalid": 0,
+    "errors": {}
+  },
+  "usage": {
+    "calls": 80,
+    "prompt_tokens": 120905,
+    "completion_tokens": 32618
+  },
+  "editor": "qwen3.7-plus",
+  "args": {
+    "generations": 20,
+    "batch": 4
+  }
+}
