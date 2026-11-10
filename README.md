@@ -44,4 +44,6 @@ python -m unittest discover -s tests -v
 
 ## 来源
 
+更多 RAG、Agent、记忆、评估与部署材料见 [AI 研究与实践归档](https://github.com/BaoBao1996121/ai-research-archive)；归档资料与本仓库可离线复算的实验结果分开标明验证范围。
+
 原报告标注 2026-11-06，原运行目录标注 2026-11-05。公开仓库建立于 2026-11-09，不补造历史提交。见 [来源清单](PROVENANCE.md) 与 [内容与权利说明](CONTENT_POLICY.md)。
