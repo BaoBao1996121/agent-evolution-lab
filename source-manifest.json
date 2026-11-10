@@ -38,70 +38,70 @@
     "source": "experiments/rsi_lab/runs/evolve_20261105_234223/final.json",
     "source_sha256": "13cd803601fd6742acfceba49719a2e3100d3f3129c19dd6924ac098d3cc121c",
     "published_as": "evidence/binpack/final.json",
-    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "treatment": "发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
     "captured_on": "2026-11-09"
   },
   {
     "source": "experiments/rsi_lab/runs/evolve_20261105_234223/history.json",
     "source_sha256": "b14160188bf654502ad6d9266bc1ad24bbd2684933b44c24b58380d1384c7368",
     "published_as": "evidence/binpack/history.json",
-    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "treatment": "发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
     "captured_on": "2026-11-09"
   },
   {
     "source": "experiments/rsi_lab/runs/harness_20261105_232532/final.json",
     "source_sha256": "b15f70405c8572fb1a71dc4a1d499f5bc95964b82b7349cb9f2874aebb068454",
     "published_as": "evidence/harness-small/final.json",
-    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "treatment": "发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
     "captured_on": "2026-11-09"
   },
   {
     "source": "experiments/rsi_lab/runs/harness_20261105_232532/rounds.json",
     "source_sha256": "b866c23ce674c977e63d46798a8826e3f31b57dc5825ef2a1b706d84b097845a",
     "published_as": "evidence/harness-small/rounds.json",
-    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "treatment": "发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
     "captured_on": "2026-11-09"
   },
   {
     "source": "experiments/rsi_lab/runs/harness_20261105_232532/archive.json",
     "source_sha256": "8eb0ff4a7dc2743c3058446f2131f0af5332cf5040552644dac45a13f1256794",
     "published_as": "evidence/harness-small/archive.json",
-    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "treatment": "发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
     "captured_on": "2026-11-09"
   },
   {
     "source": "experiments/rsi_lab/runs/harness_20261105_235005/final.json",
     "source_sha256": "a038ce2bfdaf9b5ee29a2097fe043dfde46103a213cb401e7cba24d638739524",
     "published_as": "evidence/harness-large/final.json",
-    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "treatment": "发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
     "captured_on": "2026-11-09"
   },
   {
     "source": "experiments/rsi_lab/runs/harness_20261105_235005/rounds.json",
     "source_sha256": "4462708ed70247f9bbd808b6b475f4efdd1cac689a9ceb56bd7847d97d18d1b7",
     "published_as": "evidence/harness-large/rounds.json",
-    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "treatment": "发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
     "captured_on": "2026-11-09"
   },
   {
     "source": "experiments/rsi_lab/runs/harness_20261105_235005/archive.json",
     "source_sha256": "00630682c6aceec112da86df43fc633fe91bb9143c8ad5b9beba43c82f732b18",
     "published_as": "evidence/harness-large/archive.json",
-    "treatment": "全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
+    "treatment": "发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑",
     "captured_on": "2026-11-09"
   },
   {
     "source": "reports/01-理论与架构/R168_Agent与过程RSI落地方案_2026-11-06.md",
     "source_sha256": "2493569f02c8e5f7a09da39246504d87beead33ba0c3697905f58a4f8e1fd5a7",
     "published_as": "docs/findings.md",
-    "treatment": "全文阅读，核对代码与选定结果；重新撰写，撤回安全沙箱、统计不退步、普遍收益和未附数据的结论",
+    "treatment": "发布前全文隐私审核，并核对代码与选定结果；重新撰写，撤回安全沙箱、统计不退步、普遍收益和未附数据的结论",
     "captured_on": "2026-11-09"
   },
   {
     "source": "experiments/rsi_lab/README.md",
     "source_sha256": "30c1dfd4bc732252e76d8d160c83fb7ba0b2c0f3acae869d969d10195384f924",
     "published_as": "README.md",
-    "treatment": "全文阅读后重写；替换个人环境说明，区分离线验证与在线重跑",
+    "treatment": "发布前全文隐私审核后重写；替换个人环境说明，区分离线验证与在线重跑",
     "captured_on": "2026-11-09"
   }
 ]

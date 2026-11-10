@@ -1,6 +1,8 @@
 # 来源与公开处理
 
-公开整理：2026-11-09。以下源文件均全文阅读后用于本批发布；不包含整库内容或全部原始轨迹。
+公开整理：2026-11-09。以下源文件均经过发布前全文隐私审核，再用于本批发布；不包含整库内容或全部原始轨迹。
+
+这里的审核与编辑记录仅说明本次公开整理的处理方式，不表示作者是否读过、研究过或理解过原始材料；隐私审核也不等于事实核验或运行验证。
 
 原运行日期来自目录名与报告自述，不能视为外部时间认证。SHA-256 只能识别这次本地快照，不能独立证明实验真实执行或作者身份。
 
@@ -11,16 +13,16 @@
 | `experiments/rsi_lab/evolve_code.py` | [evolve_code.py](evolve_code.py) | 保留算法与评分行为；校订文档中的安全或统计用词；不继承凭据环境变量，评估使用临时工作目录；生成代码执行默认关闭，须显式启用（仍不是安全沙箱） |
 | `experiments/rsi_lab/harness_loop.py` | [harness_loop.py](harness_loop.py) | 保留算法与评分行为；校订文档中的安全或统计用词；在线运行前校验显式配置与正整数参数 |
 | `experiments/rsi_lab/common.py` | [common.py](common.py) | 移除个人秘密文件与固定账号端点；必须显式配置模型与线路；API 包延迟导入；并发计数加锁；在线兼容性未重跑 |
-| `experiments/rsi_lab/runs/evolve_20261105_234223/final.json` | [evidence/binpack/final.json](evidence/binpack/final.json) | 全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
-| `experiments/rsi_lab/runs/evolve_20261105_234223/history.json` | [evidence/binpack/history.json](evidence/binpack/history.json) | 全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
-| `experiments/rsi_lab/runs/harness_20261105_232532/final.json` | [evidence/harness-small/final.json](evidence/harness-small/final.json) | 全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
-| `experiments/rsi_lab/runs/harness_20261105_232532/rounds.json` | [evidence/harness-small/rounds.json](evidence/harness-small/rounds.json) | 全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
-| `experiments/rsi_lab/runs/harness_20261105_232532/archive.json` | [evidence/harness-small/archive.json](evidence/harness-small/archive.json) | 全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
-| `experiments/rsi_lab/runs/harness_20261105_235005/final.json` | [evidence/harness-large/final.json](evidence/harness-large/final.json) | 全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
-| `experiments/rsi_lab/runs/harness_20261105_235005/rounds.json` | [evidence/harness-large/rounds.json](evidence/harness-large/rounds.json) | 全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
-| `experiments/rsi_lab/runs/harness_20261105_235005/archive.json` | [evidence/harness-large/archive.json](evidence/harness-large/archive.json) | 全文阅读后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
-| `reports/01-理论与架构/R168_Agent与过程RSI落地方案_2026-11-06.md` | [docs/findings.md](docs/findings.md) | 全文阅读，核对代码与选定结果；重新撰写，撤回安全沙箱、统计不退步、普遍收益和未附数据的结论 |
-| `experiments/rsi_lab/README.md` | [README.md](README.md) | 全文阅读后重写；替换个人环境说明，区分离线验证与在线重跑 |
+| `experiments/rsi_lab/runs/evolve_20261105_234223/final.json` | [evidence/binpack/final.json](evidence/binpack/final.json) | 发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
+| `experiments/rsi_lab/runs/evolve_20261105_234223/history.json` | [evidence/binpack/history.json](evidence/binpack/history.json) | 发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
+| `experiments/rsi_lab/runs/harness_20261105_232532/final.json` | [evidence/harness-small/final.json](evidence/harness-small/final.json) | 发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
+| `experiments/rsi_lab/runs/harness_20261105_232532/rounds.json` | [evidence/harness-small/rounds.json](evidence/harness-small/rounds.json) | 发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
+| `experiments/rsi_lab/runs/harness_20261105_232532/archive.json` | [evidence/harness-small/archive.json](evidence/harness-small/archive.json) | 发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
+| `experiments/rsi_lab/runs/harness_20261105_235005/final.json` | [evidence/harness-large/final.json](evidence/harness-large/final.json) | 发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
+| `experiments/rsi_lab/runs/harness_20261105_235005/rounds.json` | [evidence/harness-large/rounds.json](evidence/harness-large/rounds.json) | 发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
+| `experiments/rsi_lab/runs/harness_20261105_235005/archive.json` | [evidence/harness-large/archive.json](evidence/harness-large/archive.json) | 发布前全文隐私审核后按原始字节保存；历史模型与结果字段不改写；不是本轮在线重跑 |
+| `reports/01-理论与架构/R168_Agent与过程RSI落地方案_2026-11-06.md` | [docs/findings.md](docs/findings.md) | 发布前全文隐私审核，并核对代码与选定结果；重新撰写，撤回安全沙箱、统计不退步、普遍收益和未附数据的结论 |
+| `experiments/rsi_lab/README.md` | [README.md](README.md) | 发布前全文隐私审核后重写；替换个人环境说明，区分离线验证与在线重跑 |
 
 完整校验值见 [source-manifest.json](source-manifest.json)。
 
